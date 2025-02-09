@@ -17,4 +17,7 @@ Pod::Spec.new do |s|
   s.source_files = '*.{h,m}'
   s.frameworks   = "CoreGraphics", "QuartzCore"
   s.requires_arc = true
+  # 添加隐私清单文件
+  s.resources     = 'PrivacyInfo.xcprivacy' # 添加隐私清单文件
+
 end
